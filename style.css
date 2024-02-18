@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: gilroy;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+
+#main{
+  height: 100%;
+  width: 100%;
+  background-color:rgb(233, 233, 233);
+}
+
+#nav{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#navPart1{
+  display: flex;
+  align-items: center;
+  padding: 0px 30px;
+}
+
+#navPart1 h3{
+  font-size: 20px;
+  font-weight: 400;
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 30px;
+}
+
+#navPart1 i{
+  font-size: 20px;
+  font-weight: 400;
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#navPart2{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#navPart2 h3{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#navPart2 i{
+  font-size: 10px;
+  font-weight: 400;
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: tomato;
+}
+
+
+#navPart3{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-right:30px;
+}
+
+
+#navPart3 button{
+  font-size: 15px;
+  font-weight: 300;
+  padding: 7px 12px;
+  cursor: pointer;
+}
+
+#b1{
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+#b2{
+  background-color: tomato;
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
+
+
+#mainH1{
+  font-size: 140px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+img{
+  height: 350px;
+  width: 280px;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+
+#one{
+  transform: translate(-50%, -50%) rotate(-30deg);
+}
+#two{
+  transform: translate(-50%, -50%) rotate(-20deg);
+}
+#three{
+  transform: translate(-50%, -50%) rotate(-10deg);
+}
+#four{
+  transform: translate(-50%, -50%) rotate();
+}
+
+
+#leftText{
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+#downArrow{
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+  cursor: pointer;
+}
+
+#icons{
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+#last{
+  position: absolute;
+  bottom: 2%;
+  right: 5%
+}
